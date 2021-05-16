@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary: rgb(31, 68, 30);
+    --secondary: rgb(163, 98, 138);
+    --third: rgb(167, 216, 173);
+    --bg: rgb(219, 226,asd 211);
+  }
+  
+  /****** Header ******/
+  header {
+    background-color: var(--primary);
+  }
+  
+  header h1 {
+    color: var(--bg);
+  }
+  
+  #navbarNav ul li a {
+    color: var(--bg);
+    text-align: center;
+  }
+  
+  #navbarNav ul li a:hover {
+    color: var(--secondary);
+    background-color: var(--bg);
+  }
+  h2, h3 {
+    color: var(--primary);
+  }
+  /****** Carousel de productos *****/
+  #carouselExampleControls>.carousel-inner {
+    height: 28vh;
+  }
+  /******* Nosotros *****/
+  #nosotros {
+    background-color: var(--third);
+  }
+  
+  #nosotros iframe {
+    border-radius: 0.75rem;
+    width: 80%;
+  }
+  .efecto-rotar:hover {
+      -webkit-animation: rotar-en-centro 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.9 both;
+      animation: rotar-en-centro 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.9 both;
+  }
+  
+  
+  @keyframes rotar-en-centro {
+    0% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes rotar-en-centro {
+    0% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  /*****Productos****/
+  .card {
+    min-height: 75vh;
+  }
+  #productos .card-img-top {
+    height: 28vh;
+  }
+  
+  .btn-consulta {
+    background-color: var(--secondary);
+    color: var(--bg);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+  .btn-consulta:hover {
+    background-color: var(--primary);
+    color: var(--bg);
+  }
+  
+  /******* Fotos****/
+  .tira-imagenes {
+    transition: 3s opacity;
+    -webkit-transition: 3s opacity;
+    -moz-transition: 3s opacity;
+    -ms-transition: 3s opacity;
+    -o-transition: 3s opacity;
+  }
+  .masonry:hover img { 
+    opacity: 0.3; 
+  }
+  .masonry:hover img:hover { 
+    opacity: 1; transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); 
+  }
+  /****** Contactos******/
+  .iconos a{
+    color: var(--secondary);
+  }
+  .iconos a:hover{
+    color: var(--primary);
+  }
+  /*** Fotos *****/
+  .tira-imagenes {  
+    padding-right: 0rem;
+    padding-left: 0rem;
+  } 
+  .tira-imagenes img {
+    width: 100%;
+  }
+  /****** Contactos ******/
+  #contactos {
+    background-color: var(--third);
+  }
+  
+  .boton-enviar {
+    background-color: var(--secondary);
+    color: var(--bg);
+  }
+  
+  .boton-enviar:hover {
+    background-color: var(--primary);
+    color: var(--bg);
+  }
+  /***** Footer ******/
+  #pie-de-pagina {
+    background-color: var(--primary);
+  }
+  
+  #pie-de-pagina a {
+    color: var(--bg);
+    padding: 0 0.5rem;
+  }
+  #pie-de-pagina a:hover {
+    color: var(--secondary);
+  }
+  
+  #pie-de-pagina a {
+    color: var(--bg);
+    padding: 0 0.5rem;
+  }
