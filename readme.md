@@ -4,11 +4,11 @@
 * Durante la primer parte del curso de Codo a codo estuvimos viendo HTML y CSS.
 * Tiene menú de navegación que en versión móvil esta en Menu Hamburguesa. 
 * Tiene 5 secciones: 
-- Nosotros
-- Nuestros cursos
-- Nuestros productos
-- ¿Dónde estamos?
-- Contactos
+    - Nosotros
+    - Nuestros cursos
+    - Nuestros productos
+    - ¿Dónde estamos?
+    - Contactos
 * Se agregó con un position: fixed y z-index:999 el icono del carro de compras. Similar en el footer, con links a whatsapp e Instagram.
 
 ## Contenido 🌠
